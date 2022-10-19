@@ -61,7 +61,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton(" ᴏᴡɴᴇʀ", url="https://t.me/Vegeta_Yadav"),
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ", url="https://t.me/Mr_nack_nack"),
                 InlineKeyboardButton(" ᴜꜱᴇʀꜱ", callback_data="users"),
             ],
             [
@@ -91,11 +91,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Vegeta_Music_Support"),
+                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Miku_updates"),
             ],
             [
-                InlineKeyboardButton(" Wings Of Freedom🕊️", url="https://t.me/WingsOfFreedom2"),
-                InlineKeyboardButton(" ᴏᴡɴᴇʀ✨", url="https://t.me/Vegeta_Yadav"),
+                InlineKeyboardButton(" 【V๏ɪ፝֟𝔡】◈Network◈", url="https://t.me/VoidxNetwork"),
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ✨", url="https://t.me/Mr_nack_nack"),
             ],
             [
                 InlineKeyboardButton(" ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
@@ -178,11 +178,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except:
             pass
 
-@Client.on_message(filters.command(["WOF"]) & filters.private)
+@Client.on_message(filters.command(["void"]) & filters.private)
 async def void(client: Client, message: Message):
-    PHOTO="https://telegra.ph/file/1bde1bf9b22c534ea7aae.jpg"
+    PHOTO="https://telegra.ph/file/e5808adf6d1bc748d6440.jpg"
     Text= f"""
-Welcome to [Wings Of Freedom🕊️](https://t.me/WingsOfFreedom2)
+Welcome to [【V๏ɪ፝֟𝔡】Network](https://t.me/voidxnetwork)
 ━━━━━━━━━━━━━━━━━━━━━━
 ✪ ᴠᴏɪᴅ ɪꜱ ᴀɴ ᴀɴɪᴍᴇ ʙᴀꜱᴇᴅ ᴄᴏᴍᴍᴜɴɪᴛʏ ᴡɪᴛʜ ᴀ ᴍᴏᴛɪᴠᴇ ᴛᴏ ꜱᴘʀᴇᴀᴅ ʟᴏᴠᴇ ᴀɴᴅ ᴘᴇᴀᴄᴇ ᴀʀᴏᴜɴᴅ ᴛᴇʟᴇɢʀᴀᴍ.
 ✪ ɢᴏ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴊᴏɪɴ ᴛʜᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ ɪꜰ ɪᴛ ᴅʀᴀᴡꜱ ʏᴏᴜʀ ᴀᴛᴛᴇɴᴛɪᴏɴ. 
@@ -193,10 +193,10 @@ Welcome to [Wings Of Freedom🕊️](https://t.me/WingsOfFreedom2)
 
                 reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="Wings Of Freedom🕊️", url="https://t.me/WingsOfFreedom2")],
+                    [InlineKeyboardButton(text="【V๏ɪ፝֟𝔡】Network", url="https://t.me/VoidXNetwork")],
                     [
-                    InlineKeyboardButton(text="【ᴜꜱᴇʀᴛᴀɢ】", url="https://t.me/WingsOfFreedom2/653468"),
-                    InlineKeyboardButton(text="【ɪɴᴅᴇx】", url="https://t.me/WingsOfFreedom2/653468")
+                    InlineKeyboardButton(text="【ᴜꜱᴇʀᴛᴀɢ】", url="https://t.me/VoidxNetwork/136"),
+                    InlineKeyboardButton(text="【ɪɴᴅᴇx】", url="https://t.me/VoidxNetwork/15")
                     ],
                 ]
             ),
@@ -212,11 +212,11 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton(" ᴜᴘᴅᴀᴛE", url=f"https://t.me/Vegeta_Music_Support")
-            ]
+                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Miku_updates"),
+            ],
             [
-                InlineKeyboardButton("Wings Of Freedom🕊️", url="https://t.me/WingsOfFreedom2"),
-                InlineKeyboardButton(" ᴏᴡɴᴇʀ✨", url="https://t.me/Vegeta_Yadav"),
+                InlineKeyboardButton(" 【V๏ɪ፝֟𝔡】◈Network◈", url="https://t.me/VoidxNetwork"),
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ✨", url="https://t.me/Mr_nack_nack"),
             ],
             [
                 InlineKeyboardButton(" ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
@@ -231,7 +231,7 @@ async def help(client: Client, message: Message):
     self.username = get_me.username
     buttons =  [
             [
-                InlineKeyboardButton(" ᴏᴡɴᴇʀ", url="https://t.me/Vegeta_Yadav"),
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ", url="https://t.me/Mr_nack_nack"),
                 InlineKeyboardButton(" ᴜꜱᴇʀꜱ", callback_data="users"),
             ],
             [
