@@ -178,8 +178,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except:
             pass
 
-@Client.on_message(filters.command(["void"]) & filters.private)
-async def void(client: Client, message: Message):
+@Client.on_message(filters.command(["wof"]) & filters.private)
+async def wof(client: Client, message: Message):
     PHOTO="https://telegra.ph/file/e5808adf6d1bc748d6440.jpg"
     Text= f"""
 Welcome to [Wings Of Freedom🕊️](https://t.me/WingsOfFreedom2)
