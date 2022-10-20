@@ -94,7 +94,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Miku_updates"),
             ],
             [
-                InlineKeyboardButton(" 【V๏ɪ፝֟𝔡】◈Network◈", url="https://t.me/VoidxNetwork"),
+                InlineKeyboardButton("Wings Of Freedom🕊️", url="https://t.me/WingsOfFreedom2"),
                 InlineKeyboardButton(" ᴏᴡɴᴇʀ✨", url="https://t.me/Vegeta_Yadav"),
             ],
             [
@@ -182,9 +182,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 async def void(client: Client, message: Message):
     PHOTO="https://telegra.ph/file/e5808adf6d1bc748d6440.jpg"
     Text= f"""
-Welcome to [【V๏ɪ፝֟𝔡】Network](https://t.me/voidxnetwork)
+Welcome to [Wings Of Freedom🕊️](https://t.me/WingsOfFreedom2)
 ━━━━━━━━━━━━━━━━━━━━━━
-✪ ᴠᴏɪᴅ ɪꜱ ᴀɴ ᴀɴɪᴍᴇ ʙᴀꜱᴇᴅ ᴄᴏᴍᴍᴜɴɪᴛʏ ᴡɪᴛʜ ᴀ ᴍᴏᴛɪᴠᴇ ᴛᴏ ꜱᴘʀᴇᴀᴅ ʟᴏᴠᴇ ᴀɴᴅ ᴘᴇᴀᴄᴇ ᴀʀᴏᴜɴᴅ ᴛᴇʟᴇɢʀᴀᴍ.
+✪ WoF ɪꜱ ᴀɴ ᴀɴɪᴍᴇ ʙᴀꜱᴇᴅ ᴄᴏᴍᴍᴜɴɪᴛʏ ᴡɪᴛʜ ᴀ ᴍᴏᴛɪᴠᴇ ᴛᴏ ꜱᴘʀᴇᴀᴅ ʟᴏᴠᴇ ᴀɴᴅ ᴘᴇᴀᴄᴇ ᴀʀᴏᴜɴᴅ ᴛᴇʟᴇɢʀᴀᴍ.
 ✪ ɢᴏ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴊᴏɪɴ ᴛʜᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ ɪꜰ ɪᴛ ᴅʀᴀᴡꜱ ʏᴏᴜʀ ᴀᴛᴛᴇɴᴛɪᴏɴ. 
 ━━━━━━━━━━━━━━━━━━━━━━
 """
@@ -193,10 +193,10 @@ Welcome to [【V๏ɪ፝֟𝔡】Network](https://t.me/voidxnetwork)
 
                 reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="【V๏ɪ፝֟𝔡】Network", url="https://t.me/VoidXNetwork")],
+                    [InlineKeyboardButton(text="Wings Of Freedom🕊️", url="https://t.me/WingsOfFreedom2")],
                     [
-                    InlineKeyboardButton(text="【ᴜꜱᴇʀᴛᴀɢ】", url="https://t.me/VoidxNetwork/136"),
-                    InlineKeyboardButton(text="【ɪɴᴅᴇx】", url="https://t.me/VoidxNetwork/15")
+                    InlineKeyboardButton(text="【ᴜꜱᴇʀᴛᴀɢ】", url=""),
+                    InlineKeyboardButton(text="【ɪɴᴅᴇx】", url="")
                     ],
                 ]
             ),
@@ -212,10 +212,10 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Miku_updates"),
+                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Vegeta_Music_Support"),
             ],
             [
-                InlineKeyboardButton(" 【V๏ɪ፝֟𝔡】◈Network◈", url="https://t.me/VoidxNetwork"),
+                InlineKeyboardButton("Wings Of Freedom🕊️", url="https://t.me/WingsOfFreedom2"),
                 InlineKeyboardButton(" ᴏᴡɴᴇʀ✨", url="https://t.me/Vegeta_Yadav"),
             ],
             [
